@@ -22,7 +22,7 @@ export class HeaderComponent implements OnInit {
     },
     (err)=>
     {
-      console.log("Something happends bad in GetUser");
+      console.log("Error occurs");
     });
 
   }
@@ -36,7 +36,7 @@ export class HeaderComponent implements OnInit {
     }
     catch
     {
-      console.log("can not logout");
+      console.log("Cannot logout");
     }
   
   }
