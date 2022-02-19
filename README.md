@@ -1,4 +1,4 @@
-# Gitsearch
+# Github Clone
 
 ## By Allan Gikonyo 11/02/2022
 
