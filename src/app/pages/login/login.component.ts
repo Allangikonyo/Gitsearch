@@ -12,16 +12,16 @@ declare var $: any;
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-
+  
 
   constructor(private authService:AuthService,
     private router:Router,
     private messageService:MessageService,
     private title:Title) {this.title.setTitle("Login | Github Clone"); }
 
-  ngOnInit(): void {
-    $('.active').mouseleave();
-      $('.active').mouseover();
+    ngOnInit(): void {
+      $('.active').mouseleave();
+        $('.active').mouseover();
   }
 
   handleLogin=(f:NgForm)=>
