@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class GitService {
 
   constructor(private http:HttpClient) { }
-
+  
   getGit=(username)=>
   {
     return this.http.get(`https://api.github.com/users/${username}`);
