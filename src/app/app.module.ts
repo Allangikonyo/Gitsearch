@@ -8,7 +8,7 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/signup/signup.component';
-import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
+// import { PagenotfoundComponent } from './pages/pagenotfound/pagenotfound.component';
 import { CardComponent } from './components/card/card.component';
 import { RepoComponent } from './components/repo/repo.component';
 import { AngularFireModule } from '@angular/fire';
@@ -26,7 +26,6 @@ import { MessageComponent } from './components/message/message.component';
     HomeComponent,
     LoginComponent,
     SignupComponent,
-    PagenotfoundComponent,
     CardComponent,
     RepoComponent,
     MessageComponent
